@@ -1,0 +1,170 @@
+
+/* Global Styles  */
+*{
+  margin: 0;
+}
+
+/* Login Styles */
+body{
+  background-image: url(./images/cover.jpg);
+  background-color: cornflowerblue;
+  color: white;
+}
+main.loginMain {
+  text-align: center;
+
+}
+main.loginMain h1 {
+  margin-top: 10%;
+}
+form.formContainer{
+  text-align: left;
+  margin: 10%;
+  margin-left: 37%;
+  margin-top: 2rem;
+  padding: 2%;
+  width: 20%;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+label{
+  margin: 1rem;
+}
+input.textInput{
+  width: 80%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  outline: none;
+  border: transparent;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input.btnSubmit{
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  width: 20%;
+  outline: none;
+  border: transparent;
+  border-radius: 0.5rem;
+
+  background: rgba(5, 230, 5, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+input.btnSubmit:hover{
+  cursor: pointer;
+}
+/* Interface styles */
+nav {
+  background-color: cornflowerblue;
+}
+nav img.logo {
+  width: 5%;
+}
+img.logo{
+  margin: 0.1rem;
+}
+section.wrapper{
+  display: flex;
+  text-align: center;
+}
+section.container{
+  margin: 3%;
+  width: 50%;
+  min-height: 10rem;
+  background: rgba(5, 230, 5, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+section.operations{
+  margin:3%;
+  padding: 3%;
+  background: rgba(4, 192, 199, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.downloadLink,button{
+  text-decoration: none;
+  color: white;
+  padding: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 1rem;
+
+  background: rgba(5, 178, 230, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+button {
+  margin-left: 1%;
+  background-color: rgba(5, 178, 230, 0.25) ;
+}
+ button:hover{
+  cursor: pointer;
+
+  background: rgba(230, 5, 5, 0.25);
+}
+.downloadLink:hover{
+  background: rgba(230, 5, 5, 0.25);
+}
+section.controlSection{
+
+  color: black;
+}
+input.searchBar{
+  width: 80%;
+  margin: 2%;
+  padding:1rem;
+  border-radius: 1rem;
+  border: transparent;
+  outline: none;
+}
+form.addForm{
+
+  text-align: left;
+  border-radius: 1rem;
+  margin: 3%;
+  margin-left: 3%;
+  background-color: lightblue;
+  width: 15%;
+  padding:2%;
+  padding-top:0;
+}
+.close{
+  
+  margin-top: 4%;
+  margin-left: 100%;
+}
+.close:hover{
+  cursor: pointer;
+  color: cornflowerblue;
+}
+form.close-form {
+  visibility: hidden;
+}
+button.logOutbtn {
+  float: right;
+  margin:1rem
+}
+
